@@ -62,7 +62,6 @@
 \newcommand{\enableCodeLineNumbers}{\lstset{numbers=left}}
 \newcommand{\disableCodeLineNumbers}{\lstset{numbers=none}}
 %
-\newcommand{\PowerEnJoy}[0]{\mbox{\emph{PowerEnJoy}}}
 
 \newcommand{\setDepth}[1]{\setcounter{tocdepth}{#1}\setcounter{secnumdepth}{#1}}
 \newcommand{\itemBold}[1]{\item\textbf{#1:}}
@@ -112,10 +111,9 @@
 	urlcolor=blue
 }
 %
-\author{M.~Travaglini \, F.~Zanoli \, F.Di Febbo}
-\date{\today}
+
 \newcommand{\titleSubtitle}[2]{\title{#1 \\ \vspace{1cm} \large{#2}}}
-\newcommand{\titleToc}{\maketitle\newpage\tableofcontents\listoffigures}
+\newcommand{\titleToc}{\maketitle\newpage\tableofcontents}
 \newcommand{\titleTocNoFig}{\maketitle\newpage\tableofcontents}
 \newcommand{\blueHref}[2]{\hypersetup{linkcolor=blue}\hyperref[#1]{#2}\hypersetup{linkcolor=black}}
 
@@ -124,6 +122,20 @@
  \includegraphics[width=6cm]{../Common/Resources/PoliLogo.png}
  \\
  }
-\posttitle{\end{center}}
+
+ \date{\vspace{-5ex}}
+ \date{}  % Toggle commenting to test
+
+\posttitle{
+	\end{center}
+	\vspace{1cm}
+	\begin{center}
+	 	Delivery date: 26/04/2017
+	\end{center}
+	\vspace{1cm}
+	Marco Travaglini - \href{mailto:marco1.travaglini@mail.polimi.it}{marco1.travaglini@mail.polimi.it} \\
+	Francesco Zanoli - \href{mailto:10423828@polimi.it}{10423828@polimi.it} \\
+	Francesco Di Febbo - \href{mailto:francesco.difebbo@mail.polimi.it}{francesco.difebbo@mail.polimi.it}
+}
 
 \newcommand{\pageHeader}[1]{\pagestyle{fancy}\fancyhf{}\rhead{Chapter \thechapter}\lhead{#1}\fancyfoot[CE,CO]{\thepage}}
