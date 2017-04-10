@@ -111,7 +111,6 @@
 	urlcolor=blue
 }
 %
-<<<<<<< HEAD
 
 \newcommand{\titleSubtitle}[2]{\title{#1 \\ \vspace{1cm} \large{#2}}}
 \newcommand{\titleToc}{\maketitle\newpage\tableofcontents}

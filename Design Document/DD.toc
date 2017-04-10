@@ -1,4 +1,0 @@
-\contentsline {chapter}{\numberline {A}Appendix}{3}{appendix.A}
-\contentsline {section}{\numberline {A.1}Tools}{3}{section.A.1}
-\contentsline {section}{\numberline {A.2}Hours of work}{4}{section.A.2}
-\contentsline {section}{\numberline {A.3}Version History}{5}{section.A.3}
