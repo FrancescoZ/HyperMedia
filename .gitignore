@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.DS_Store
 *.toc
 *.log
@@ -7,3 +8,14 @@
 *.snm
 *.aux
 *.gz
+=======
+.DS_Store
+.toc
+.log
+.lof
+.nav
+.out
+.snm
+.aux
+.gz
+>>>>>>> e8b2f12856dfa05ff4f8f8031a6e8cba6336e90c

@@ -111,9 +111,11 @@
 	urlcolor=blue
 }
 %
+<<<<<<< HEAD
 
 \newcommand{\titleSubtitle}[2]{\title{#1 \\ \vspace{1cm} \large{#2}}}
 \newcommand{\titleToc}{\maketitle\newpage\tableofcontents}
+
 \newcommand{\titleTocNoFig}{\maketitle\newpage\tableofcontents}
 \newcommand{\blueHref}[2]{\hypersetup{linkcolor=blue}\hyperref[#1]{#2}\hypersetup{linkcolor=black}}
 
@@ -122,6 +124,7 @@
  \includegraphics[width=6cm]{../Common/Resources/PoliLogo.png}
  \\
  }
+
 
  \date{\vspace{-5ex}}
  \date{}  % Toggle commenting to test
