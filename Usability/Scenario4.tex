@@ -1,25 +1,32 @@
-\section{Scenario 4 TODO}
-Dalia has to buy a new smartphone. He loves the services that his provider offers and he knows he can buy a new phone on its website.
+\section{Scenario 4}
+Daniele is keen for soccer, he loves to watch his team on tv. He wants to check on TIM website if they have any offer about tv services.
 
 \begin{enumerate}
 	\item He goes on \url{www.tim.it}
-	\item He clicks on "PRODOTTI" \url{www.tim.it/prodotti}
-	\item In the smartphone section he can choose between smartphone or iPhone. He clicks on "iPhone". \url{www.tim.it/prodotti/smartphone-e-telefoni/iphone}
-	\item Alberto sees that there are no promotions on iPhone so he goes back by clicking on "PRODOTTI"
-	\item There is a promotion on Samsung Galaxy S8. He clicks on "SCOPRI". \url{www.tim.it/prodotti/smartphone-e-telefoni/samsung-galaxy-s8}
-	\item He looks for the price and the specs. Alberto is interested and he wants to buy this phone. He clicks on "ACQUISTA". He is redirected on the ecommerce website of TIM and purchase is continued through this site.
+	\item He clicks on "TIM Premium Online" \url{www.tim.it/smart-life/tv-entertainment/tv/timpremiumonline}
+	\item He scrolls through the site. He is interested in Serie A so he clicks on "Serie A TIM" in the top right part \url{www.tim.it/smart-life/tv-entertainment/serie-a}
+	\item He clicks on "Serie A TIM TV" \url{www.tim.it/smart-life/tv-entertainment/serie-tim-tv}
+	\item Daniele reads through the page but he doesn't like the offer. He clicks on "TIM" logo then "TIM Premium Online"
+	\item He clicks on "ATTIVA CON OPERATORE" and enters his phone number. The services will be activated telephonically
 \end{enumerate}
-
+\newpage
 \subsection{Results}
 \begin{enumerate}
 	
 %------------------------------------------------------------------------------------------------------
 	
-\item Report on \url{www.tim.it}	
+\item Report on \url{www.tim.it/smart-life/tv-entertainment/tv/timpremiumonline}
+
+\begin{center}
+	\includegraphics[width=\textwidth]{Screenshot/premium.jpg}
+\end{center}
+\vspace{1cm}
+
 	\paragraph*{Content heuristics \\ Text}
 	\begin{itemize}
 		\item accuracy: satisfied
-		\item currency: \textcolor{red}{severely violated}\\the user cannot know if the page is updated
+		\item currency: \textcolor{red}{severely violated}\\
+		the user cannot know if the page is updated
 		\item coverage: satisfied
 		\item content objectivity: satisfied
 		\item authority: satisfied
@@ -50,7 +57,8 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 	
 	\paragraph*{Backward navigation}
 	\begin{itemize}
-		\item go back: n/a
+		\item go back: \textcolor {orange}{partially violated}\\
+		there isn't a "go back" functionality but the user can exploit the TIM logo to return to the homepage
 	\end{itemize}
 	
 	\paragraph*{Overall navigation}
@@ -98,11 +106,18 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 
 %------------------------------------------------------------------------------------------------------
 
-\item Report on \url{www.tim.it/prodotti}
+\item Report on \url{www.tim.it/smart-life/tv-entertainment/serie-a}
+
+\begin{center}
+	\includegraphics[width=\textwidth]{Screenshot/seriea.jpg}
+\end{center}
+\vspace{1cm}
+
 	\paragraph*{Content heuristics \\ Text}
 	\begin{itemize}
 		\item accuracy: satisfied
-		\item currency: severely violated
+		\item currency:  \textcolor{red}{severely violated}\\
+		the user cannot know if the page is updated
 		\item coverage: satisfied
 		\item content objectivity: satisfied
 		\item authority: satisfied
@@ -133,8 +148,8 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 
 	\paragraph*{Backward navigation}
 	\begin{itemize}
-		\item go back: \textcolor {orange}{partially violated}\\
-		there isn't a "go back" functionality but the user can exploit the TIM logo to return to the homepage or select a position in the website structure path (Home $\triangleright$ PRODOTTI)
+		\item go back: \textcolor {orange}{severely violated}\\
+		there isn't a "go back" functionality and the user can only exploit the TIM logo to return to the homepage and redo the step
 	\end{itemize}
 	
 	\paragraph*{Overall navigation}
@@ -180,11 +195,18 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 
 %------------------------------------------------------------------------------------------------------
 
-\item Report on \url{www.tim.it/prodotti/smartphone-e-telefoni/iphone}
+\item Report on \url{www.tim.it/smart-life/tv-entertainment/serie-tim-tv}
+
+\begin{center}
+	\includegraphics[width=\textwidth]{Screenshot/serieatimtv.jpg}
+\end{center}
+\vspace{1cm}
+
 	\paragraph*{Content heuristics \\ Text}
 	\begin{itemize}
 		\item accuracy: satisfied
-		\item currency: \textcolor{red}{severely violated}
+		\item currency: \textcolor{red}{severely violated}\\
+		the user cannot know if the page is updated
 		\item coverage: satisfied
 		\item content objectivity: satisfied
 		\item authority: satisfied
@@ -197,124 +219,43 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 		\item multimedia consistency: satisfied
 	\end{itemize}
 	
-	\paragraph*{Navigation heuristics \\ Navigation within a topic}
-	\begin{itemize}
-		\item segmentation: n/a
-	\end{itemize}	
-	
-	\paragraph*{Navigation within a transition}
-	\begin{itemize}
-		\item transition list: n/a
-	\end{itemize}
-	
-	\paragraph*{Navigation within a group of topics}
-	\begin{itemize}
-		\item introduction list: satisfied
-		\item group navigation: satisfied
-	\end{itemize}
-	
-	\paragraph*{Backward navigation}
-	\begin{itemize}
-		\item go back: \textcolor{red}{severely violated}\\
-		there is no "go back" functionality, the user can go to the homepage through the TIM logo or repeat the steps by clicking "PRODOTTI"
-	\end{itemize}
-	
-	\paragraph*{Overall navigation}
-	\begin{itemize}
-		\item landmarks: satisfied
-		\item link consistency: satisfied
-		\item orientation clues: \textcolor{red}{severely violated}\\
-		the user cannot know where he is, there are no title nor path
-		\item orientation clues - topic: n/a
-		\item group orientation clues: satisfied
-		\item transition orientation clues: n/a
-	\end{itemize}	
-	
-	\paragraph*{Visual and semantic heuristics \\ Overall graphic design }
-	\begin{itemize}
-		\item visual identity: satisfied
-		\item chromatic code consistency: satisfied
-		\item background contrast:satisfied
-		\item font size: satisfied
-		\item font colour: satisfied
-		\item font type: satisfied
-		\item anchor identity: satisfied
-		\item anchor states: satisfied
-		\item icon consistency: satisfied
-	\end{itemize}
-	
-	\paragraph*{Page layout}
-	\begin{itemize}
-		\item visual proximity: satisfied
-		\item layout conventions: satisfied
-		\item semiotics: satisfied
-	\end{itemize}	
-	
-	\paragraph*{Cognitive heuristics \\ Single page}
-	\begin{itemize}
-		\item information overload: satisfied
-	\end{itemize}	
-
-	\paragraph*{Information architecture}
-	\begin{itemize}
-		\item classification adequacy within group of topics: satisfied
-		\item website mental map: satisfied
-	\end{itemize}
-
-%------------------------------------------------------------------------------------------------------
-
-\item Report on \url{www.tim.it/prodotti/smartphone-e-telefoni/samsung-galaxy-s8}
-	\paragraph*{Content heuristics \\ Text}
-	\begin{itemize}
-		\item accuracy: satisfied
-		\item currency: severely violated
-		\item coverage: satisfied
-		\item content objectivity: satisfied
-		\item authority: satisfied
-		\item conciseness: satisfied		
-	\end{itemize}
-
-	\paragraph*{General communication quality}
-	\begin{itemize}
-		\item text errors: satisfied
-		\item multimedia consistency: satisfied
-	\end{itemize}
-
 	\paragraph*{Navigation heuristics \\ Navigation within a topic}
 	\begin{itemize}
 		\item segmentation: satisfied\\
-		the information of the topic are organized in sub-sections on the same page
+		the information of the topic are organized in sub-sections on the same page 
 	\end{itemize}	
-
+	
 	\paragraph*{Navigation within a transition}
 	\begin{itemize}
 		\item transition list: satisfied
 	\end{itemize}
-
+	
 	\paragraph*{Navigation within a group of topics}
 	\begin{itemize}
 		\item introduction list: n/a
 		\item group navigation: n/a
 	\end{itemize}
-
+	
 	\paragraph*{Backward navigation}
 	\begin{itemize}
-		\item go back: \textcolor{orange}{partially violated}
+		\item go back: \textcolor{red}{severely violated}\\
+		there is no "go back" functionality, the user can go to the homepage through the TIM logo or repeat the steps
 	\end{itemize}
-
+	
 	\paragraph*{Overall navigation}
 	\begin{itemize}
 		\item landmarks: satisfied
 		\item link consistency: satisfied
-		\item orientation clues: satisfied
+		\item orientation clues: \textcolor{red}{partially violated}\\
+		the user has a path structure that doesn't resemble his actions
 		\item orientation clues - topic: satisfied
 		\item group orientation clues: satisfied
 		\item transition orientation clues: satisfied
 	\end{itemize}	
-
+	
 	\paragraph*{Visual and semantic heuristics \\ Overall graphic design }
 	\begin{itemize}
-		\item visual identity: satisfied (the colors represents the logo of the company)
+		\item visual identity: satisfied
 		\item chromatic code consistency: satisfied
 		\item background contrast:satisfied
 		\item font size: satisfied
@@ -324,14 +265,14 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 		\item anchor states: satisfied
 		\item icon consistency: satisfied
 	\end{itemize}
-
+	
 	\paragraph*{Page layout}
 	\begin{itemize}
 		\item visual proximity: satisfied
 		\item layout conventions: satisfied
 		\item semiotics: satisfied
-	\end{itemize}
-
+	\end{itemize}	
+	
 	\paragraph*{Cognitive heuristics \\ Single page}
 	\begin{itemize}
 		\item information overload: satisfied
@@ -342,4 +283,4 @@ Dalia has to buy a new smartphone. He loves the services that his provider offer
 		\item classification adequacy within group of topics: satisfied
 		\item website mental map: satisfied
 	\end{itemize}
-	\end{enumerate}
+\end{enumerate}
