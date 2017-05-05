@@ -132,7 +132,7 @@
 	\end{center}
 	\vspace{1cm}
 	\begin{center}
-	 	Delivery date: 26/04/2017
+	 	Delivery date: 7/5/2017
 	\end{center}
 	\vspace{1cm}
 	Marco Travaglini - \href{mailto:marco1.travaglini@mail.polimi.it}{marco1.travaglini@mail.polimi.it} \\
