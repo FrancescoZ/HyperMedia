@@ -1,5 +1,11 @@
 - 1 SCENARIO:
 
+Bob needs to do an electrocardiogram. Different friends suggested him to do it at Hospidif. Bob has never been to the clinic before and before take a decision he wants to get more information through the site www.hospidif.com.
+From the homepage he clicks on the button Services. At this point he has to choose a specific area to filter all the available services.
+He select then the cardiology area. Between the different he chooses the electrocardiogram  and accesses to the page with all the information concerning the service. Reading the description of the service he finds that there is just one location to access to this service. He clicks on the link “London Westminster”. He reads all the information about the location and then he clicks on “How to reach the location”. He finds out that the clinic is not too far away from his house. He decides to look for more information about the service so he goes back with the back button and returns to the service’ page.
+This time he clicks on the first doctor on the list. He opens then the doctor’ description page. He reads all the informations about the medicine . He comes back again to the service’ page and he repeats the passage for all the doctors. Bob is really interested in this service so he decides to arrange an appointment. To do so he clicks on the button area in the menu. He chooses the location of London Westminster by clicking on the button. he chooses again cardiology and he arrived on the area’ detail page. At this point he can click on the Responsible Doctor, open the doctor’s detail page and click on the button call.
+
+
 Bob ha bisogno di effettuare un elettrocardiogramma. Diverse persone gli hanno suggerito  di effettuarla all' Hospidif.
 Bob non Ë mai stato nella clinica e quindi prima di tutto decide di informarsi meglio a riguardo accedendo al portale www.hospidif.com
 Dalla homepage clicca sul pulsante Services. A questo punto gli viene richiesto di selezionare un area sulla quale filtrare i servizi.
@@ -14,6 +20,8 @@ Dunque clicca sul bottone "Areas" nel quale gli viene richiesto di scegliere la 
 successivamente, seleziona "Cardiology" e clicca sul dottore responsabile. Clicca sul pulsante Call e ottiene il suo numero di telefono.
 
 - 2 SCENARIO:
+
+Patrick used a few days ago the Hospidif’ service. He is really satisfied about the treatment he received in the clinic and he decided to access to the site to read a few information about it. From the homepage he clicks on the button “Who we are”. He reads all the information concerning the history of the clinic. He is also interested in witch new techonology the clinic is studying at the moment so he clicks on the button “Project”. finally he wants to see what is going on at the clinic  so he clicks on news in the menu. He finds a list of news concerning the clinic. He is really interested and he clicks on the first one to know more.
 
 Patrick ha da pochi giorni usufruito di un servizio dell'Hospidif. Dato che Ë molto soddisfato di come Ë stato trattato dalla clinica decide di accedere
 sul sito per leggere un po di informazioni a riguardo. Dalla homepage clicca sul bottone "Who we are" e legge tutte le info riguardo la storia della clinica.
